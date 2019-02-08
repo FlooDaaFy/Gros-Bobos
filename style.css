@@ -1,0 +1,114 @@
+ 
+/* Dimenssion de la page */
+html {	
+	background: #EDEDED;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+	margin-right: auto;
+	 
+}
+
+/*Titre "Le Corps Huamin" */
+header {
+	text-align: center;
+	font-size: 30px;
+	font-family: Comic sans ms ;
+}
+
+/* Image du corps humain */
+
+.photo {
+	background-image:url(corps.png) ;
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 250px;
+	margin-left: 30%
+}
+
+ /*Cercle des boutons */
+.bouton{
+	
+  background:black;
+  border-radius:50%;
+  width:40px;
+  height:40px;
+  border:2px solid black; 
+  opacity: 0.5;
+  position:relative;
+  z-index: 1;
+}
+
+/*Couleur rouge qui reste au clique de la souris */
+.bouton:focus {
+	background-color: red;
+}
+
+
+/* Couleur rouge au passage de la souris */
+.bouton:hover {
+    background-color: red;
+}
+
+/* Position pour le bouton */
+.cheville{
+
+  top: 435px;
+  left: 28%;
+}
+
+/* Position pour le bouton */
+.cuisse {
+
+  left: 25px;
+  top: 300px;
+}
+
+/*Position pour le bouton au niveau de la hanche  */
+.hanche{
+
+  left: 80px;
+  top: 160px;
+}
+
+/* Position pour le bouton du poigné */
+.poignee{
+
+  left: -6px;
+  top: 95px
+}
+
+/* Position pour le bouton du coude */
+.coude{
+
+  left: 105px;
+}
+
+/* Position pour le bouton */
+.epaule{ 
+ 
+  top: -135px;
+}
+
+/* Element  qui se cache */
+.affichage {
+
+	display: none;
+}
+
+/* Texte qui s'affiche */
+.text {
+
+	font-weight: bolder;
+    font-family: cursive;
+	position:relative;
+	left: 45.5% ;
+	bottom: 450px;
+	width: 20%;
+	height: 300px;
+    overflow: scroll;
+}
+
+
+@media and screen {
+
+}
